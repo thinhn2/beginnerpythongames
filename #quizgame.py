@@ -36,7 +36,7 @@ while True:
             print("Incorrect")
 
         q5 = input("Who is the famous artist behind Starry Night?\n")
-        if q5.lower() == 'picasso':
+        if q5.lower() == 'van gogh':
             point += 1
             print(f"Correct! Your score is: {point}")
         else:
